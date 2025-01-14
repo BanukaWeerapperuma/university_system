@@ -1,0 +1,738 @@
+/* Login Page Styling */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fc;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #1e90ff;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-container label {
+    text-align: left;
+    font-size: 1em;
+    color: #333;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.login-container button {
+    padding: 12px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #5a9bd5;
+}
+
+.login-container p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 15px;
+}
+
+.login-container a {
+    color: #1e90ff;
+}
+
+.login-container a:hover {
+    color: #5a9bd5;
+}
+
+
+/* Signup Page Styling */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fc;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup-container h2 {
+    color: #1e90ff;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.signup-container label {
+    text-align: left;
+    font-size: 1em;
+    color: #333;
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="email"],
+.signup-container input[type="password"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.signup-container button {
+    padding: 12px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-container button:hover {
+    background-color: #5a9bd5;
+}
+
+.signup-container p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 15px;
+}
+
+.signup-container a {
+    color: #1e90ff;
+}
+
+.signup-container a:hover {
+    color: #5a9bd5;
+}
+
+
+
+
+/* dash board  */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    text-align: left;
+    transition: background 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.sidebar a.active {
+    background-color: #4CAF50;
+}
+
+/* Main Dashboard Content */
+.dashboard-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+/* Dashboard Header */
+.dashboard-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Dashboard Container for User Info and Links */
+.dashboard-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.dashboard-container h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.dashboard-container p {
+    color: #555;
+}
+
+/* Action Links */
+.action-links {
+    margin-top: 10px;
+}
+
+.action-links a {
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+    padding: 10px 15px;
+    color: #4CAF50;
+    background-color: #f9f9f9;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.action-links a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Card Container */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 200px);
+    margin-left: 200px;
+}
+
+
+/*reg std  */
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form container */
+.form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+}
+
+/* Form title */
+.form-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+
+/*result show*/
+
+/* Search Student Action Styling */
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+/* Search Result Container */
+.search-result-container {
+    margin-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Result Card */
+.result-card {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.result-card p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.result-card strong {
+    color: #3498db;
+}
+
+/* No Result Message */
+.no-result {
+    color: red;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .search-result-container {
+        width: 90%;
+    }
+
+    .result-card {
+        padding: 15px;
+    }
+}
+
+
+/*analas  */
+
+.analytics-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.analytics-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.analytics-container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+.analytics-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.analytics-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.analytics-container button:hover {
+    background-color: #4852d6;
+}
+
+.student-info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.student-info h3 {
+    color: #333;
+}
+
+.student-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5c67f2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #4852d6;
+}
+
+
+/*settings*/
+.settings-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-container h2, .settings-container h3 {
+    text-align: center;
+    color: #333;
+}
+
+.settings-container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+.settings-container input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.settings-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.settings-container button:hover {
+    background-color: #4852d6;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logout-button, .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5c67f2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover, .back-button:hover {
+    background-color: #4852d6;
+}
+
+
+/*help*/
+
+/* General Styling for Help Page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fb;
+    margin: 0;
+    padding: 0;
+}
+
+.help-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    font-size: 28px;
+    color: #5c67f2;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #5c67f2;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.help-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.help-steps {
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.help-steps ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.help-steps li {
+    margin-bottom: 15px;
+}
+
+.help-steps li strong {
+    color: #333;
+}
+
+/* Contact Information Styling */
+.contact-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.contact-details p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Back Button Styling */
+.button-container {
+    margin-top: 30px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #5c67f2;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #4852d6;
+    transform: translateY(-3px);
+}
+
+.back-button:active {
+    transform: translateY(1px);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .help-container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .help-steps li {
+        font-size: 14px;
+    }
+
+    .contact-details p {
+        font-size: 14px;
+    }
+
+    .back-button {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+}

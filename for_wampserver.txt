@@ -1,0 +1,28 @@
+/* For make database and tables*/
+
+CREATE DATABASE university;
+
+USE university;
+
+-- Table for user login (signup)
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+-- Table for student registration
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nic VARCHAR(20) NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    tel_no VARCHAR(15) NOT NULL,
+    course VARCHAR(100) NOT NULL
+);
+
+
+/* ----------------------------- */
+
+
+collation  type "utf8mb4_0900_ai_ci"
